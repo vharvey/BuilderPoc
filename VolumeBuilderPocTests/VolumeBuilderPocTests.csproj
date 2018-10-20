@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.4.2" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.2" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VolumeBuilderPoc\VolumeBuilderPoc.csproj" />
+  </ItemGroup>
+
+</Project>
